@@ -19,7 +19,18 @@
     </tr>
   </table>
     <br>
+    
+　<table border="1">
+    <tr>
+      <td>YahooMailの起動確認</td>
+    </tr>
+    <tr>
+      <td><a href="ymail://mail/compose?to=test@yahoo.co.jp&subject=Subject&body=Body">Yahoo Mail起動</a></td>
+    </tr>
+  </table>
+  <br>
 
+<h1>URLスキームテスト(ディープリンクではなくただのメール起動用のurl)</h1>
  <table border="1">
     <tr>
       <td>メーラー起動（ディープリンクではなくmailtoのチェックのためメーラーは場合により変わる）</td>
@@ -29,16 +40,47 @@
     </tr>
   </table>
     <br>
-    
-   <table border="1">
+<h1>Webview環境検証用アプリで動作するようにするテストディープリンク</h1>
+
+ <table border="1">
     <tr>
-      <td>YahooMailの起動確認</td>
+      <td>GoogleChromeアプリ起動確認 googlechrome://q=apple</td>
     </tr>
     <tr>
-      <td><a href="ymail://mail/compose?to=test@yahoo.co.jp&subject=Subject&body=Body">Yahoo Mail起動</a></td>
+      <td><a href="googlechrome://q=apple">Chromeでappleを検索</a></td>
     </tr>
   </table>
-  <br>
-  
+    <br>
+    
+     <table border="1">
+    <tr>
+      <td>Yahooアプリ起動確認 yahoojapan://q=apple</td>
+    </tr>
+    <tr>
+      <td><a href="yahoojapan://q=apple">Chromeでappleを検索</a></td>
+    </tr>
+  </table>
+    <br>
+    
+     <table border="1">
+        <tr>
+      <td>Gmail起動確認 googlegmail://to=test@yahoo.co.jp</td>
+    </tr>
+    <tr>
+      <td><a href="googlegmail://to=test@yahoo.co.jp">Gmail起動（送り先test@yahoo.co.jp）</a></td>
+    </tr>
+  </table>
+    <br>
+
+     <table border="1">
+        <tr>
+      <td>オリジナルスキーム起動確認 liquid-webview-test://test</td>
+    </tr>
+    <tr>
+      <td><a href="liquid-webview-test://test">Webview環境検証用アプリにリダイレクト</a></td>
+    </tr>
+  </table>
+    <br>
+
 </body>
 </html>
