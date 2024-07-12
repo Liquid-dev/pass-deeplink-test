@@ -8,56 +8,34 @@
 
 <body>
 
-<h1>Webveiwのスキームテスト</h1>
+<h1>URLスキームテスト(一般的なディープリンクで動作するはずのもの)</h1>
 <br>
  <table border="1">
-    <tr>
-      <th>URLスキーム</th>
-    </tr>
     <tr>
       <td>GoogleのChrome起動確認</td>
     </tr>
     <tr>
-      <td><a href="googlechrome://www.google.com/search?q=apple">Chromeでappleを検索</a></td>
+      <td><a href="googlechrome://www.google.com/search?q=りんご">Chromeでappleを検索</a></td>
     </tr>
   </table>
     <br>
 
  <table border="1">
     <tr>
-      <th>URLスキーム</th>
+      <td>メーラー起動（ディープリンクではなくmailtoのチェックのためメーラーは場合により変わる）</td>
     </tr>
     <tr>
-      <td>GoogleGmail起動確認</td>
-    </tr>
-    <tr>
-      <td><a href="mailto:test@gmail.com?subject=Subject&body=Body">Gmailでメールを作成</a></td>
+      <td><a href="mailto:test@gmail.com?subject=Subject&body=Body">何かしらのメーラーを起動</a></td>
     </tr>
   </table>
     <br>
-  
+    
    <table border="1">
-    <tr>
-      <th>URLスキーム</th>
-    </tr>
     <tr>
       <td>YahooMailの起動確認</td>
     </tr>
     <tr>
-      <td><a href="ymail://mail/compose?to=test@yahoo.co.jp&subject=Subject&body=Body">Yahoo Mailでメールを作成</a></td>
-    </tr>
-  </table>
-  <br>
-  
-  <table border="1">
-    <tr>
-      <th>URLスキーム</th>
-    </tr>
-    <tr>
-      <td>オリジナルスキームでアプリ起動(テスト的にliquid-webview-test://をスキームとする)</td>
-    </tr>
-    <tr>
-      <td><a href="liquid-webview-test://test">検証用アプリを起動</a></td>
+      <td><a href="ymail://mail/compose?to=test@yahoo.co.jp&subject=Subject&body=Body">Yahoo Mail起動</a></td>
     </tr>
   </table>
   <br>
