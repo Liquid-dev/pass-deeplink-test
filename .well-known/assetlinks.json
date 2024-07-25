@@ -1,12 +1,14 @@
 [
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "asia.liquidinc.websample",
-      "sha256_cert_fingerprints": [
-        "01:DD:17:56:72:55:51:F0:0B:64:83:7E:CB:2A:90:86:BE:58:64:27:05:CC:EA:D8:59:17:42:66:0D:A4:41:79"
-      ]
-    }
-  }
+	{
+		"relation": [
+			"delegate_permission/common.handle_all_urls"
+		],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "asia.liquidinc.websample",
+			"sha256_cert_fingerprints": [
+				"01:DD:17:56:72:55:51:F0:0B:64:83:7E:CB:2A:90:86:BE:58:64:27:05:CC:EA:D8:59:17:42:66:0D:A4:41:79"
+			]
+		}
+	}
 ]
